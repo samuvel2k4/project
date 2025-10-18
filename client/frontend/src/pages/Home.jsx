@@ -48,7 +48,6 @@ function Home() {
     headers: { Authorization: `Bearer ${token}` },
   }
 );
-
       // Backend returns { page, limit, total, users: [...] }
       const fetchedUsers = res.data.users || [];
       const totalUsers = res.data.total || 0;

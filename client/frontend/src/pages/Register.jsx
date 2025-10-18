@@ -292,7 +292,7 @@ function Register() {
               </>
             ) : (
               "Register"
-            )}
+            )}                                            
           </button>
         </form>
 
@@ -313,3 +313,4 @@ function Register() {
 }
 
 export default Register;
+
